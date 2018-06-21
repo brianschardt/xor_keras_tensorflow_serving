@@ -16,10 +16,11 @@ git clone https://github.com/brianalois/xor_keras_tensorflow_serving.git
 cd xor_keras_tensorflow_serving
 ```
 
-###PIPENV
+### PIPENV
 #### Use Pipenv because we are awesome develoeprs
 I am using pipenv in order to standardize environments, kind or like the famous NPM for node
 
+###### Install Pipenv
 https://docs.pipenv.org/
 ```angular2html
 pip install pipenv
@@ -27,6 +28,16 @@ pip install pipenv
 or if you are using mac install with homebrew
 ```angular2html
 brew install pipenv
+```
+
+#### Install Dependencies
+run this in the repo directory, installs files from Pipfile
+```angular2html
+pipenv install
+```
+#### Run it using pipenv
+```angular2html
+pipenv run python index.py
 ```
 ### No Pipenv
 #### Don't want to use Pipenv because I am not awesome
@@ -36,7 +47,6 @@ You must have tensorflow keras, and numpy installed(obviously)
 pip install numpy
 pip install tensorflow keras
 ```
-
 run the file to export the trained model
 ```angular2html
 python index.py
