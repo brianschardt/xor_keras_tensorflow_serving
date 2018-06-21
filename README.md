@@ -1,4 +1,4 @@
-# XOR Keras Trained Model
+# XOR Keras Trained Model Export for Tensorflow Serving
 ### Exported Model configured for Tensorflow Serving
 
 There is no real example of a simple model that was trained using 
@@ -9,8 +9,15 @@ example I could think of, which is the XOR logic gate. https://en.wikipedia.org/
 
 
 
-### Getting Environment Set up
-#### Pipenv
+### Getting Environment Set Up
+Clone Repo
+```angular2html
+git clone https://github.com/brianalois/xor_keras_tensorflow_serving.git
+cd xor_keras_tensorflow_serving
+```
+
+###PIPENV
+#### Use Pipenv because we are awesome develoeprs
 I am using pipenv in order to standardize environments, kind or like the famous NPM for node
 
 https://docs.pipenv.org/
@@ -21,8 +28,8 @@ or if you are using mac install with homebrew
 ```angular2html
 brew install pipenv
 ```
-
-#### Don't want to use Pipenv
+### No Pipenv
+#### Don't want to use Pipenv because I am not awesome
 If you do not want to use **pipenv** then you must install these dependencies
 You must have tensorflow keras, and numpy installed(obviously)
 ```angular2html

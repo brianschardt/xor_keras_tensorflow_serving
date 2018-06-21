@@ -12,7 +12,7 @@ from keras.layers.core import Dense, Dropout, Activation
 from keras.optimizers import SGD
 import numpy as np
 
-model_version = "1" #Change this to export different model versions, i.e. 2, ..., 7
+model_version = "2" #Change this to export different model versions, i.e. 2, ..., 7
 epoch = 100 ## the higher this number is the more accurate the prediction will be 10000 is a good number to set it at just takes a while to train
 
 #Exhaustion of Different Possibilities
